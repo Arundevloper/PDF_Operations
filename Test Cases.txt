@@ -1,0 +1,48 @@
+Test Case for pdf_operations
+
+1)Uploading pdf files
+
+->No files are selected
+->Select Only pdf file
+->Duplicate file
+
+2)login
+->invalid name and password
+
+
+3)Register
+->all fileds are required
+->email alredy exists
+
+4)logout
+
+5)Extract file
+
+a)Extract Single Page:
+
+->Test if the system successfully extracts a single specified page from a PDF file.
+->Verify that the extracted content matches the content of the specified page.
+->Ensure that the extracted page maintains the correct formatting and layout.
+
+b)Extract Range of Pages:
+->Test if the system can extract a range of consecutive pages from a PDF file (e.g., pages 1 to 5).
+->Verify that all pages within the specified range are extracted accurately.
+->Ensure that the extracted pages are in the correct sequential order.
+
+c)Extract Non-Consecutive Pages:
+->Test if the system can extract non-consecutive pages from a PDF file (e.g., pages 1, 3, and 5).
+->Verify that all selected pages are extracted correctly and in the specified order.
+->Ensure that the extracted pages contain the expected content from the original document.
+
+d)Extract pages order wise
+->check if the pdf is extracting order wise or not
+
+6)View/Download
+->succesfully view pdf
+->succesfully download pdf
+
+7)Delete pdf 
+->succesfully delete
+
+8)Responsiveness
+->Check the website is Responsive or not
