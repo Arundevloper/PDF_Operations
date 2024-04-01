@@ -1,0 +1,85 @@
+.page-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.page-list li {
+  width: calc(100% - 10px);
+}
+
+.page-label {
+  display: block;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.page-checkbox {
+  margin-right: 5px;
+}
+
+.page-checkbox+.tick-icon:before {
+  content: '\2713';
+  font-size: 16px;
+  color: #00ADB5;
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: middle;
+}
+
+.extract-button {
+  background-color: #00ADB5;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.extract-button:hover {
+  background-color: #00838f;
+}
+
+.page-selector-container {
+  width: 50% !important;
+  margin: 0 auto;
+}
+
+.page-label {
+  margin-top: 30px !important;
+}
+
+.page-selector-title {
+  color: #00ADB5;
+  font-style: italic;
+}
+
+.btn {
+  background-color: #00ADB5;
+  color: #EEEEEE !important;
+}
+
+.btn:hover {
+  background-color: #EEEEEE;
+  color: black !important;
+}
+
+.page-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .page-selector-container {
+    width: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-left: 30px !important;
+  }
+}
